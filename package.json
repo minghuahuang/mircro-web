@@ -1,12 +1,14 @@
 {
   "name": "micro-web",
   "version": "1.0.0",
-  "description": "",
+  "description": "create micro project for myself",
   "main": "index.js",
   "scripts": {
-    "start": "node ./build/run.js"
+    "start": "node ./build/init.js && node ./build/run.js",
+    "start-f": "node ./build/init.js -f && node ./build/run.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "ming",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {}
 }
